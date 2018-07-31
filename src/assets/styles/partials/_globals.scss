@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+p, h1, h2, h3, h4, h5, h6, input, button, ul, ol, li {
+    font-size: 16px;
+    font-family: 'Lato', 'sans-serif';
+}
+
+img {
+    cursor: pointer;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input, button {
+    border-radius: $border-radius;
+    border: $border-size $border-type $border-color;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+input:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 3px $bg-dark;
+}
+
+button {
+    cursor: pointer;
+}
+
+// ==================== CUSTOM COMPONENTS ==================== //
+
+#logo-lg { width: 100%; }
+
+#logo-sm { width: 200px; }
+
+.App {
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: $bg-light;
+
+    main {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media (min-width: 1024px) {
+    #logo-lg { width: 50%; }
+}

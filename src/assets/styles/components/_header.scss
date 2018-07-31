@@ -1,0 +1,27 @@
+.Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: $border-size $border-type $border-color;
+    padding-bottom: 10px;
+
+    input {
+        height: 35px;
+        width: 250px;
+        margin: 0px 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Header {
+        height: $header;
+        flex-direction: row;
+        padding-bottom: 0px;
+
+        input {
+            width: 350px;
+        }
+    }
+}
