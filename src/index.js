@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import './assets/styles/main.scss';
+import './assets/styles/main.css';
 
 import Landing from './components/Landing';
 import Search from './components/Search';
