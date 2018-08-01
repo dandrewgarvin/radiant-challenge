@@ -1,7 +1,7 @@
 # Flickr Code Challenge
 
 ## Demo
-A live demo of this project can be viewed (here)[http://104.236.162.105].
+A live demo of this project can be viewed [here](http://104.236.162.105).
 
 ## Specs
 
