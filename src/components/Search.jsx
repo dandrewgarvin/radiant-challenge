@@ -31,7 +31,7 @@ class Search extends React.Component {
     }
 
     makeRequest = (query = this.state.inputValue) => {
-        let url = process.env.REACT_APP_SERVER_URL;
+        let url = process.env.REACT_APP_SERVER_URL || 'http://104.236.162.105:3005/api/images?string=';
 
         this.setState({ loading: true });
 
