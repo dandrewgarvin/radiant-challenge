@@ -34,7 +34,6 @@ class Search extends React.Component {
         let url = process.env.REACT_APP_SERVER_URL || 'http://104.236.162.105:3005/api/images?string=';
 
         this.setState({ loading: true });
-
         axios.get(url + query).then(response => {
             this.setState({
                 loading: false,

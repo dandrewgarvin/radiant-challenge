@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.set('axios', axios);
 app.set('flickrUrl', process.env.FLICKR_URL);
 
-app.use(express.static(__dirname + '/../build'));
+app.use('/', express.static(__dirname + '/../build'));
 
 // ========== ROUTES DECORATOR ========== //
 routes(app);
